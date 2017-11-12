@@ -76,8 +76,9 @@
             // new1PToolStripMenuItem
             // 
             this.new1PToolStripMenuItem.Name = "new1PToolStripMenuItem";
-            this.new1PToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
-            this.new1PToolStripMenuItem.Text = "New 1P";
+            this.new1PToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.new1PToolStripMenuItem.Text = "New 1P(AI)";
+            this.new1PToolStripMenuItem.Click += new System.EventHandler(this.new1PToolStripMenuItem_Click_1);
             // 
             // helpToolStripMenuItem
             // 
@@ -95,6 +96,7 @@
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(12, 27);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 60);
@@ -104,6 +106,7 @@
             // 
             // button2
             // 
+            this.button2.Enabled = false;
             this.button2.Location = new System.Drawing.Point(78, 27);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(60, 60);
@@ -113,6 +116,7 @@
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(144, 27);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(60, 60);
@@ -122,6 +126,7 @@
             // 
             // button4
             // 
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(12, 93);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(60, 60);
@@ -131,6 +136,7 @@
             // 
             // button5
             // 
+            this.button5.Enabled = false;
             this.button5.Location = new System.Drawing.Point(78, 93);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(60, 60);
@@ -140,6 +146,7 @@
             // 
             // button6
             // 
+            this.button6.Enabled = false;
             this.button6.Location = new System.Drawing.Point(144, 93);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(60, 60);
@@ -149,6 +156,7 @@
             // 
             // button7
             // 
+            this.button7.Enabled = false;
             this.button7.Location = new System.Drawing.Point(12, 159);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(60, 60);
@@ -158,6 +166,7 @@
             // 
             // button8
             // 
+            this.button8.Enabled = false;
             this.button8.Location = new System.Drawing.Point(78, 159);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(60, 60);
@@ -167,6 +176,7 @@
             // 
             // button9
             // 
+            this.button9.Enabled = false;
             this.button9.Location = new System.Drawing.Point(144, 159);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(60, 60);
