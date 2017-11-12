@@ -17,6 +17,7 @@ namespace tic_tac_toe_Graphical
         private bool player1; // Which player is playing right now.
         private bool gameBegun = false;
         private bool AImode = false;
+        //
         private Random r = new Random();
         List<Button> buttons;
         public Form1()
